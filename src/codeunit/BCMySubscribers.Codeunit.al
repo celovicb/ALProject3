@@ -8,7 +8,7 @@ codeunit 50101 "BC MySubscribers"
     begin
         Message(TextMsg, Customer.Name);
     end;
-
+    //izmenaaa
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Whse.-Post Shipment", 'OnAfterSalesPost', '', false, false)]
     local procedure OnAfterSalesPost(var WarehouseShipmentLine: Record "Warehouse Shipment Line"; SalesHeader: Record "Sales Header"; Invoice: Boolean);
