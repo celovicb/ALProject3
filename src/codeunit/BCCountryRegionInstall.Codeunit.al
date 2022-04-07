@@ -1,7 +1,7 @@
 codeunit 50102 "BC Country/Region Install"
 {
     Subtype = Install;
-
+//izmenaaa
     trigger OnInstallAppPerCompany();
     var
         UpgradeTag: Codeunit "Upgrade Tag";
