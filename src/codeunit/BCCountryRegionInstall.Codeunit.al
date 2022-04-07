@@ -38,4 +38,5 @@ codeunit 50102 "BC Country/Region Install"
     end;
 
     //moja nova izmena
+    //moja druga izmenaaa
 }
